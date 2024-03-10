@@ -7,7 +7,6 @@ Remind-me-later is a web application designed to allow users to set up reminders
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Documentation](#api-documentation)
-- [Contributing](#contributing)
 
 ## Features
 
