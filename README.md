@@ -25,3 +25,25 @@ To run the project locally, follow these steps:
 
 ```bash
 git clone https://github.com/your-username/remind-me-later.git
+
+```
+## Usage
+
+- Once the development server is running, you can access the API endpoint for creating reminders at http://localhost:8000/api/reminder/.
+- Send a POST request to the API endpoint with the following JSON payload:
+  {
+    "date": "2024-03-10",
+    "time": "08:00:00",
+    "message": "Don't forget to attend the meeting!",
+    "reminder_type": "Email"
+  }
+
+## API Documentation
+
+- The API endpoint for creating reminders accepts POST requests with JSON payloads containing the following fields:
+  - date (string): Date of the reminder in the format "YYYY-MM-DD".
+  - time (string): Time of the reminder in the format "HH:MM:SS".
+  - message (string): Text message for the reminder.
+  - reminder_type (string): Type of reminder delivery (e.g., "SMS", "Email").
+
+
